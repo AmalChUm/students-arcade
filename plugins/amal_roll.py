@@ -2,7 +2,7 @@ import random
 
 # Each student names their file plugins/github_username.py
 
-AUTHOR = "Octocat"
+AUTHOR = "Amal"
 APP_NAME = "Magic 8-Ball"
 
 def run():
