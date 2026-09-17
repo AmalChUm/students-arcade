@@ -24,4 +24,4 @@ for _, module_name, is_pkg in pkgutil.iter_modules(plugins.__path__):
             result = module.run()
             print(f"  ↳ {result}\n")
         except Exception as e:
-            print(f"  ↳ ❌ Error executing script: {e}\n")
+            print(f"  ↳ ❌ Error executing script! {e}\n")
