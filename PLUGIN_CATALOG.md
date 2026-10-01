@@ -1,6 +1,6 @@
 # Students Arcade Plugin Catalog
 
-This catalog covers the Python files currently in `plugins/` for [issue #24](https://github.com/AmalChUm/students-arcade/issues/24). The launcher in `main.py` imports each module and calls its `run()` function when one exists. Names and authors below come from the files themselves; a nonstandard field is identified explicitly.
+This catalog covers the Python files currently in `plugins/` for [issue #24](https://github.com/AmalChUm/students-arcade/issues/24) and [pull request #65](https://github.com/AmalChUm/students-arcade/pull/65). The launcher in `main.py` imports each module and calls its `run()` function when one exists. Names and authors below come from the files themselves; a nonstandard field is identified explicitly.
 
 | Plugin file | Declared author | Activity name | Input requirements | Output and launcher behavior |
 | --- | --- | --- | --- | --- |
