@@ -1,0 +1,24 @@
+Issue #14 - Random Playing Card Plugin
+Student: Matthew Sabadac
+Course: SWE 325
+
+SETUP / BASELINE TEST
+
+I forked the students-arcade repository and cloned my fork to my local computer using GitHub Desktop.
+
+Local repository:
+C:\Users\vdsab\OneDrive\Documents\GitHub\students-arcade
+
+Before working on the plugin, I verified that the Students Arcade project could run on my computer.
+
+Python was installed and the project was run using the following command:
+
+"C:\Users\vdsab\AppData\Local\Programs\Python\Python314\python.exe" main.py
+
+The program ran successfully and the existing plugins were discovered and executed.
+
+After confirming the baseline worked, I created the following branch for Issue #14:
+
+feature/issue-14-random-playing-card
+
+I then created contribution-plan.md before beginning the implementation.

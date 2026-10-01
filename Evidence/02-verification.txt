@@ -1,0 +1,28 @@
+Issue #14 - Random Playing Card Plugin
+Student: Matthew Sabadac
+Course: SWE 325
+
+VERIFICATION / TESTING
+
+After creating the random playing-card plugin, I tested the entire Students Arcade project using the following command:
+
+"C:\Users\vdsab\AppData\Local\Programs\Python\Python314\python.exe" main.py
+
+The program ran successfully and discovered the new plugin.
+
+The output included:
+
+Random Playing Card by Matthew Sabadac
+Your random card is the Queen of Spades.
+
+The program completed successfully and reported:
+
+Ran 8 plugin(s).
+
+This verified that my plugin was discovered by the plugin runner and executed correctly.
+
+The plugin randomly selects:
+- One rank from 2 through Ace
+- One of the four standard suits: Hearts, Diamonds, Clubs, or Spades
+
+No errors occurred during testing.
