@@ -1,0 +1,33 @@
+Issue #13 - Random Motivational Message Plugin
+Student: Matthew Sabadac
+Course: SWE 325
+
+VERIFICATION / TESTING
+
+After creating the random motivational-message plugin, I tested the Students Arcade project using the following command:
+
+"C:\Users\vdsab\AppData\Local\Programs\Python\Python314\python.exe" main.py
+
+The program ran successfully and discovered the new plugin.
+
+The output included:
+
+Random Motivational Message by Matthew Sabadac
+Motivational Message: Believe in yourself and keep going!
+
+The program completed successfully and reported:
+
+Ran 8 plugin(s).
+
+This verified that the plugin was discovered by the plugin runner and executed correctly.
+
+The plugin randomly selects one motivational message from a list and displays it in a clear and readable format.
+
+I also confirmed that:
+- The author was displayed correctly.
+- The activity name was displayed correctly.
+- The run() function executed successfully.
+- The motivational message was readable.
+- The other plugins continued to execute.
+
+No errors occurred during testing.
