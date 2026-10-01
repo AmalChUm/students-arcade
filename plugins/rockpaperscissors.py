@@ -49,4 +49,4 @@ def run():
                 print("You did not enter a valid option.\n")
                 user_choice = input("Choose [rock], [paper], or [scissors] by typing into the terminal: (case insensitive)\n").lower()
 
-    return result
+    return f"{APP_NAME}: {result}"
