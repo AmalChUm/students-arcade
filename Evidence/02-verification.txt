@@ -26,3 +26,4 @@ The plugin randomly selects:
 - One of the four standard suits: Hearts, Diamonds, Clubs, or Spades
 
 No errors occurred during testing.
+
