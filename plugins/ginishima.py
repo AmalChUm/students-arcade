@@ -6,6 +6,8 @@ AUTHOR = "Gaige Szy"
 APP_NAME = "Number Addition"
 
 def run():
-    """Main execution function called by main.py."""
-    total = 18 + 21
-    return f"Your total number is: {total}."
+    """Add two random integers from 1 to 100 and show the sum."""
+    first = random.randint(1, 100)
+    second = random.randint(1, 100)
+    total = first + second
+    return f"{first} + {second} = {total}"
