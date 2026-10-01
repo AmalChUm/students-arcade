@@ -1,0 +1,24 @@
+Issue #14 - Random Playing Card Plugin
+Student: Matthew Sabadac
+Course: SWE 325
+
+SELF-REVIEW
+
+I reviewed my changes for Issue #14 before submitting the pull request.
+
+Files I added:
+- contribution-plan.md
+- plugins/random_playing_card.py
+- evidence/01-setup.txt
+- evidence/02-verification.txt
+- evidence/03-self-review.txt
+
+I checked that the plugin follows the same structure as the other Students Arcade plugins. It includes the required AUTHOR and APP_NAME information and a run() function.
+
+I also checked that the plugin only contains changes related to Issue #14 and does not modify unrelated parts of the project.
+
+The plugin was tested through main.py and was successfully discovered and executed by the plugin runner.
+
+I reviewed the output and confirmed that it randomly selects a playing-card rank and suit and displays the result in a clear format.
+
+Based on my testing and review, the plugin is working as intended and is ready for review.
