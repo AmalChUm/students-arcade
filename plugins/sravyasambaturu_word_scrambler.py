@@ -17,4 +17,4 @@ def scramble(word):
 def run():
     word = random.choice(WORDS)
     scrambled = scramble(word)
-    return f"Scrambled: {scrambled}  (original: {word})"
+    return f"Original: {word} -> Scrambled: {scrambled}"
