@@ -1,0 +1,5 @@
+• The plugin is discovered:  yes, did a commit on it
+• The author is displayed correctly: yes
+• The activity name is displayed correctly:yes
+• run() executes: yes
+• The output is readable: yes, check out screenshot_yes_no_output.png

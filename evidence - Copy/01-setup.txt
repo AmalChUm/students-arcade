@@ -1,0 +1,9 @@
+Parent repository:https://github.com/AmalChUm/students-arcade.git
+
+Fork repository:https://github.com/moeshaw/students-arcade.git
+
+Local clone folder:"C:\Users\moesh\Documents\GitHub\students-arcade"
+
+Current branch: main
+
+Initial program output: screenshot_setup

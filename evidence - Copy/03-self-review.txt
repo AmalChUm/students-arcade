@@ -1,0 +1,9 @@
+
+
+Code Review
+
+The code is simple, organized, and easy to modify. 
+The separate variables make changing the options, probabilities, and responses easy.
+Using weighted random choices makes the Yes/No results customizable.
+ I also noticed the issue where the selected option could appear twice, so I fixed it by choosing the statement separately. 
+ Overall, the plugin is functional and flexible.
