@@ -1,0 +1,37 @@
+==================================================
+PLUGIN RUNNER VERIFICATION LOG
+==================================================
+
+Student: Shayan Shoukat
+Class: SWE 325
+
+Execution Command: python main.py
+
+--------------------------------------------------
+Plugin Test Output:
+
+plugins.countdown_message by Shayan Shoukat
+=== Countdown Message ===
+Enter countdown time in seconds: 2
+Enter completion message (or press Enter for default): hi
+Starting countdown...
+2...
+1...
+🎉 hi
+
+plugins.multiplication_table by Shayan Shoukat
+=== Multiplication Table Generator ===
+Enter a number to generate its table: 2
+Enter range limit (default 10): 6
+
+Multiplication Table for 2:
+2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
+2 x 5 = 10
+2 x 6 = 12
+
+==================================================
+Verification Status: SUCCESS - Both plugins run without error.
+==================================================

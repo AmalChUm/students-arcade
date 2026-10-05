@@ -1,0 +1,12 @@
+==================================================
+SELF-REVIEW CHECKLIST
+==================================================
+
+Student: Shayan Shoukat
+Course: SWE 325
+
+[X] Scope Limitation: Changes were limited strictly to plugins/multiplication_table.py, plugins/countdown_message.py, contribution-plan.md, ai-log.md, and evidence files.
+[X] Code Style & Conventions: Standard library Python functions were used with standard error handling.
+[X] Metadata Compliance: AUTHOR and APP_NAME metadata variables are included in all created plugin files.
+[X] Secrets & Security: No secret keys, passwords, personal tokens, or API credentials are included in the repository.
+[X] Verification: Plugins run successfully via python main.py in PowerShell.

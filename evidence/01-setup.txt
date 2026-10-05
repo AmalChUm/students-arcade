@@ -1,0 +1,9 @@
+Student: Shayan Shoukat
+Class: SWE 325
+Original Repo: AmalChUm/students-arcade
+Fork Repo: shayysho/students-arcade
+Local Path: C:\Users\shaysho\Documents\GitHub\students-arcade
+
+Selected Issues:
+1. Mandatory: Add a multiplication-table plugin
+2. Optional: Add a countdown-message plugin
