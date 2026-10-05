@@ -1,0 +1,30 @@
+SWE 325/525 Software Construction
+Even/Odd Plugin - Setup Evidence
+
+Student: Moesha Woods
+
+Issue:
+https://github.com/AmalChUm/students-arcade/issues/45
+
+Feature Branch:
+issues-45-even-odd-plugin
+
+Repository:
+https://github.com/moeshaw/students-arcade.git
+
+Setup:
+
+I created a dedicated feature branch for the Even/Odd plugin task.
+
+The plugin is being added to the plugins/ directory.
+
+The existing main.py file was not modified.
+
+The plugin uses only the Python standard library.
+
+The plugin defines:
+
+AUTHOR = "Moesha Woods"
+APP_NAME = "Even or Odd Helper"
+
+The plugin uses configurable probability values to select the Even or Odd category and then selects an integer that matches the selected category.

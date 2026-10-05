@@ -1,0 +1,36 @@
+SWE 325/525 Software Construction
+Even/Odd Plugin - Self Review
+
+Student: Moesha Woods
+
+I reviewed the plugin before submitting it.
+
+Checklist:
+
+[✓] The plugin is located in the plugins/ directory.
+
+[✓] The file has a unique descriptive name.
+
+[✓] AUTHOR is defined.
+
+[✓] APP_NAME is defined.
+
+[✓] run() is defined.
+
+[✓] The plugin uses only the Python standard library.
+
+[✓] The plugin selects an integer and reports whether it is even or odd.
+
+[✓] The probability values can be adjusted.
+
+[✓] The integer range is defined.
+
+[✓] python main.py discovers and runs the plugin.
+
+[✓] main.py was not modified.
+
+[✓] No credentials or private information were added.
+
+[✓] The change is focused on Issue #45.
+
+The main thing I checked was that the integer displayed by the plugin matches the Even or Odd category selected by the program.

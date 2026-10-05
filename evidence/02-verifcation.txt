@@ -1,0 +1,37 @@
+SWE 325/525 Software Construction
+Even/Odd Plugin - Verification Evidence
+
+Student: Moesha Woods
+
+Issue:
+https://github.com/AmalChUm/students-arcade/issues/45
+
+Verification command:
+
+python main.py
+
+Expected behavior:
+
+The main program discovers the Even or Odd Helper plugin and runs it.
+
+The plugin first uses the configured probability weights to select either the even or odd category.
+
+It then selects an integer that matches the selected category.
+
+Example output:
+
+Even or Odd Helper: 42, this number is even.
+
+Another possible output:
+
+Even or Odd Helper: 37, you got an odd number.
+
+Verification:
+
+The plugin was discovered and executed successfully.
+
+The output displayed the selected integer and its classification.
+
+The plugin uses only the Python standard library.
+
+main.py was not modified for this task.
