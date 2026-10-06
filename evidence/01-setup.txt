@@ -1,0 +1,43 @@
+Student: Deandre Skelton
+Parent repository: https://github.com/AmalChUm/students-arcade
+Fork repository: https://github.com/Drepython96/students-arcade
+Local clone folder: C:\Users\Owner\students-arcade
+Current branch: main
+Command used: py -X utf8 main.py
+Initial behavior: 7 plugins ran successfully. Matt-Rak was skipped because it has no run() function.
+Setup note: Used the py launcher because the python command was not found. UTF-8 mode allowed emoji output to be saved correctly.
+
+Initial program output:
+==================================================
+PLUGIN RUNNER
+==================================================
+
+Coin Flipper by David Christian
+  🎱 Coin Flipper says: Tails!
+
+Card Generator by Eliad Spraggins
+  🃏 Card Generator says: Your random card is 3♣
+
+plugins.Matt-Rak by Unknown author
+  [skipped] no run() function defined
+Suleman Saddet
+Magic 8-Ball
+169
+
+Magic 8-Ball by Suleman Saddet
+  138
+
+Daily Tip Generator by Gemini
+  💡 Tip of the Day: Create a new Git branch whenever you start working on a new feature or fix.
+
+Number Addition by Gaige Szy
+  Your total number is: 39.
+
+D20 roller by Mackenzie Klupp
+  🎱 D20 roller rolled at: 15
+
+Magic 8-Ball by Sravya Sambaturu
+  🎱 Magic 8-Ball says: Outlook not so good.
+
+==================================================
+Ran 7 plugin(s).

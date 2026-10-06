@@ -1,0 +1,28 @@
+Self-review: Mandatory issue #44
+Student: Deandre Skelton
+
+Plugin: plugins/multiplication_question.py
+Branch: feature/issue-44-multiplication-quiz
+
+Code review:
+- AUTHOR and APP_NAME are defined.
+- run() generates two random integers from 1 through 12.
+- The returned text shows both numbers and their correct product.
+- The plugin uses only Python's standard library.
+- No code calls run() or prints output during import.
+- main.py and other students' plugins were not edited.
+
+Verification:
+- Launcher displayed 10 x 6 = 60.
+- Saved launcher output displayed 4 x 12 = 48.
+- Launcher discovered the plugin and reported 8 plugins ran.
+- Import check displayed only "Import check passed".
+- The existing Matt-Rak skip is recorded in the evidence.
+
+Limitations:
+- The answer appears immediately; the plugin does not collect input.
+- Random questions may repeat.
+- Optional issue #26 has not been implemented.
+
+Review result:
+No corrections identified in the plugin during this self-review.
