@@ -5,6 +5,7 @@ Issue URL: https://github.com/users/AmalChUm/projects/3/views/1?pane=issue&itemI
 Selected difficulty: beginner
 Proposed branch: feature/issue-10-trivia
 Expected files: trivia.py
+Branch name: feature/issue-10-trivia
 
 ## My interpretation of the task
 
