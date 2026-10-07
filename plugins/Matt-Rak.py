@@ -1,9 +1,9 @@
 import random
 
-Game_name = "Guessing game"
-Author = "Matthew Rakay"
+APP_NAME = "Guessing game"
+AUTHOR = "Matthew Rakay"
 
-def play_guessing_game():
+def run():
     print("welcome to the guessing game!")
     print("Pick a number from 1 and 100")
 
@@ -29,4 +29,4 @@ def play_guessing_game():
             print("Please enter a valid number.")
 
 if __name__ == "__main__":
-    play_guessing_game()
+    run()
