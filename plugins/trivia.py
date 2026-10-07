@@ -9,23 +9,12 @@ def run():
     """Main execution function called by main.py."""
     trivia_choice = random.randint(1,5)
     if trivia_choice == 1:
-        print("1")
+        return f"{APP_NAME} asks: What year did the first Jurassic Park movie release? \n {APP_NAME} says: 1993"
     elif trivia_choice == 2:
-        print("2")
+        return f"{APP_NAME} asks: The name of the guitarist who did the solo for Beat It? \n {APP_NAME} says: Rocker Eddie Van Halen"
     elif trivia_choice == 3:
-        print("3")
+        return f"{APP_NAME} asks: How many presidents are on Mount Rushmore? \n {APP_NAME} says: Four"
     elif trivia_choice == 4:
-        print("4")
+        return f"{APP_NAME} asks: What Country gave women the right to vote first? \n {APP_NAME} says: New Zealand."
     else:
-        print("5")
-
-    if trivia_choice == 1:
-        print("p1")
-    elif trivia_choice == 2:
-        print("p2")
-    elif trivia_choice == 3:
-        print("p3")
-    elif trivia_choice == 4:
-        print("p4")
-    else:
-        print("p5")
+        return f"{APP_NAME} asks: What is a group of Crows called? \n {APP_NAME} says: A Murder of Crows"
