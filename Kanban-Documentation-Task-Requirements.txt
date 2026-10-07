@@ -1,0 +1,19 @@
+14. Documentation-task requirements
+
+Kanban Workflow
+
+issue: #32
+
+This repository uses a GitHub Projects Kanban board to track Arcade issues through the development workflow.
+
+The board uses the following workflow states:
+
+Backlog: Issues that have been identified but are not yet ready to begin.
+Ready: Issues that are prepared to be worked on.
+In Progress: Issues that are currently being worked on.
+In Review: Issues where the work has been completed and is being reviewed.
+Done: Issues that have been completed and reviewed.
+
+An Arcade issue begins in "Backlog" Once the issue is ready to be worked on, it moves to "Ready". When work begins, it moves to "In Progress" After the work is completed, the issue moves to "In Review" Once the work has been reviewed and accepted, the issue moves to "Done".
+
+The Kanban board is linked to this repository, and Arcade issues are added to the board so their progress can be tracked through the workflow.
