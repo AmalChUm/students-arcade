@@ -1,0 +1,8 @@
+Self-Review Checklist:
+[x] Only appropriate files were added/modified (plugins/palindrome_checker.py).
+[x] main.py was NOT modified.
+[x] AUTHOR and APP_NAME constants are defined as non-empty strings.
+[x] run() function is defined and returns a non-empty string.
+[x] Code uses standard library modules only (random).
+[x] No hardcoded credentials, secret keys, or absolute local paths exist in code.
+[x] Local setup and verification evidence files recorded in evidence/ directory.
