@@ -1,0 +1,35 @@
+msettlerak@matt MINGW64 ~/Workspace/Sft-Con/students-arcade (issue-31-pull-request-checklist)
+$ python main.py
+==================================================
+PLUGIN RUNNER
+==================================================
+
+Coin Flipper by David Christian
+  🎱 Coin Flipper says: Tails!
+
+Card Generator by Eliad Spraggins
+  🃏 Card Generator says: Your random card is 3♠
+
+plugins.Matt-Rak by Unknown author
+  [skipped] no run() function defined
+Suleman Saddet
+Magic 8-Ball
+68
+
+Magic 8-Ball by Suleman Saddet
+  83
+
+Daily Tip Generator by Gemini
+  💡 Tip of the Day: Read error messages carefully—most of the time, the exact file and line number are given.
+
+Number Addition by Gaige Szy
+  Your total number is: 39.
+
+D20 roller by Mackenzie Klupp
+  🎱 D20 roller rolled at: 5
+
+Magic 8-Ball by Sravya Sambaturu
+  🎱 Magic 8-Ball says: Outlook not so good.
+
+==================================================
+Ran 7 plugin(s).

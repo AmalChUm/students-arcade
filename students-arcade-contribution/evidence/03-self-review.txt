@@ -1,0 +1,36 @@
+Acceptance criteria
+
+The checklist is easy for contributors to reuse.
+
+Yes
+
+It includes python main.py verification.
+
+Yes ran in terminal
+
+It includes a no-credentials check.
+
+Yes
+
+Work in a dedicated feature branch.
+
+Yes issue-31-pull-request-checklist
+
+Keep the change focused on this issue.
+
+Yes
+
+Preserve the MIT license and existing attribution.
+Yes
+
+Do not add credentials, tokens, private information, or unnecessary dependencies.
+
+Yes
+
+Verify the result with python main.py when the task changes executable Python behavior.
+
+Yes
+
+Open a pull request that links this issue and explains the verification performed.
+
+Yes

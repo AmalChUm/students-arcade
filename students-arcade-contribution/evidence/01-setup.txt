@@ -1,0 +1,35 @@
+PS C:\Users\msett\AppData\Local\Programs\Microsoft VS Code> & C:\Users\msett\AppData\Local\Python\pythoncore-3.14-64\python.exe c:/Users/msett/Workspace/Sft-Con/students-arcade/main.py
+==================================================
+PLUGIN RUNNER
+==================================================
+
+Coin Flipper by David Christian
+  🎱 Coin Flipper says: Heads!
+
+Card Generator by Eliad Spraggins
+  🃏 Card Generator says: Your random card is 5♣
+
+plugins.Matt-Rak by Unknown author
+  [skipped] no run() function defined
+Suleman Saddet
+Magic 8-Ball
+121
+
+Magic 8-Ball by Suleman Saddet
+  27
+
+Daily Tip Generator by Gemini
+  💡 Tip of the Day: Take regular breaks! Stepping away from the screen solves more bugs than staring at code.
+
+Number Addition by Gaige Szy
+  Your total number is: 39.
+
+D20 roller by Mackenzie Klupp
+  🎱 D20 roller rolled at: 1
+
+Magic 8-Ball by Sravya Sambaturu
+  🎱 Magic 8-Ball says: Yes, definitely!
+
+==================================================
+Ran 7 plugin(s).
+PS C:\Users\msett\AppData\Local\Programs\Microsoft VS Code> 
