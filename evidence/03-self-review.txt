@@ -1,0 +1,37 @@
+Self-review for Issue #55 — Text Statistics Plugin
+
+Branch:
+feature/issue-55-text-statistics
+
+Files changed:
+plugins/text_statistics.py
+
+Scope review:
+The change is limited to the selected issue. I added one new plugin file and did not modify main.py or another student's plugin.
+
+Repository hygiene:
+- No passwords, tokens, private information, or unrelated files were added.
+- The existing MIT license and attribution were left unchanged.
+- No external packages were added.
+
+Plugin interface review:
+- The filename is unique and located under plugins/.
+- AUTHOR is defined as Daniel Belville Jr.
+- APP_NAME is defined as Text Statistics.
+- run() is defined and returns a readable result.
+- The plugin does not execute unintended code when imported.
+
+Behavior review:
+The plugin reports:
+- character count
+- word count
+- line count
+
+Verification:
+I ran python main.py from the repository root on the feature branch.
+The launcher discovered and ran the Text Statistics plugin successfully.
+The final launcher output reported 8 plugins ran.
+Existing plugins continued to run or showed their pre-existing behavior.
+
+Conclusion:
+The contribution is focused, follows the existing plugin interface, satisfies the issue scope, and is ready for review.
