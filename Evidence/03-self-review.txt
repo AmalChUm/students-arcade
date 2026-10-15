@@ -1,0 +1,28 @@
+Issue #13 - Random Motivational Message Plugin
+Student: Matthew Sabadac
+Course: SWE 325
+
+SELF-REVIEW
+
+I reviewed my changes for Issue #13 before submitting the pull request.
+
+Files I added:
+- contribution-plan.md
+- plugins/random_motivational_message.py
+- evidence/01-setup.txt
+- evidence/02-verification.txt
+- evidence/03-self-review.txt
+
+I checked that the plugin follows the existing Students Arcade plugin structure. It includes the required AUTHOR and APP_NAME information and a run() function.
+
+I confirmed that my changes are limited to Issue #13 and that I did not make unrelated changes to the project.
+
+I also checked that no passwords, credentials, private information, or unrelated files were included.
+
+The plugin was tested through main.py and was successfully discovered and executed by the plugin runner.
+
+I confirmed that the plugin randomly selects a motivational message from the list and displays it in a clear and readable format.
+
+I also confirmed that the existing plugins continued to execute during testing.
+
+Based on my testing and self-review, the plugin is working as intended and is ready for review.

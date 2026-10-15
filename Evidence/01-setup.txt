@@ -1,0 +1,24 @@
+Issue #13 - Random Motivational Message Plugin
+Student: Matthew Sabadac
+Course: SWE 325
+
+SETUP / BASELINE TEST
+
+I used my existing fork and local clone of the students-arcade repository.
+
+Local repository:
+C:\Users\vdsab\OneDrive\Documents\GitHub\students-arcade
+
+Before starting Issue #13, I switched back to the main branch and fetched the latest changes.
+
+I then created a separate feature branch for Issue #13:
+
+feature/issue-13-random-motivational-message
+
+Before implementing the plugin, I created contribution-plan.md to document the issue, expected files, my interpretation of the task, and my testing plan.
+
+The Students Arcade project had already been verified to run successfully on my computer using:
+
+"C:\Users\vdsab\AppData\Local\Programs\Python\Python314\python.exe" main.py
+
+After confirming the repository setup, I began implementing the random motivational-message plugin.
