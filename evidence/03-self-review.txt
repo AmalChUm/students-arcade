@@ -1,0 +1,21 @@
+Issue: #33 Add a greeting-message arcade plugin
+Branch: feature/issue-33-greeting-message
+
+Self-review:
+
+- Changed files are limited to the issue and assignment documentation.
+- No credentials or private information are included.
+- The plugin follows the repository interface.
+- The filename greeting_message.py is unique and discoverable.
+- AUTHOR is set to Zora Smith.
+- APP_NAME is set to Greeting Message.
+- run() is defined and works as expected.
+- The plugin uses only the Python standard library.
+- main.py was not modified.
+- The output is readable.
+- Existing plugins still execute.
+- The MIT license and attribution were not changed.
+- The documentation matches the implemented plugin.
+
+Result:
+The contribution appears ready for pull request review.

@@ -1,0 +1,10 @@
+Parent repository: https://github.com/AmalChUm/students-arcade
+Fork repository: https://github.com/ZoraS123/students-arcade
+Local clone folder: /Users/zorasmith/Desktop/students-arcade
+Current branch: feature/issue-33-greeting-message
+
+Initial program output:
+Ran 7 plugin(s).
+
+Existing plugin errors or skipped modules:
+None observed.
