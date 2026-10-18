@@ -34,4 +34,4 @@ Replace the fixed 18 + 21 calculation with two random integers from 1 to 100. Di
 
 ## AI assistance
 
-Codex helped implement the original random addition change. During review follow-up, Codex helped interpret ginishima's feedback, preserve original attribution, rename the file, clarify output and comments, prepare this plan, and run local checks. Andrew's manual verification is a separate step and must not be inferred from the automated checks.
+Codex helped implement the changes, draft this plan, and run automated checks.
