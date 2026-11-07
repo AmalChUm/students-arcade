@@ -10,7 +10,7 @@ def run():
         "Ask again later.",
         "Outlook not so good."
     ]
-    if True
-        return "This line is intentionally invalid"
+    # if True
+    #     return "This line is intentionally invalid"
 
     return f"🎱 {APP_NAME} says: {random.choice(responses)}"
