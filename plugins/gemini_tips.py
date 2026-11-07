@@ -16,7 +16,7 @@ TIPS = [
     "Write code for human readers first, and computers second.",
 ]
 
-def run() -> str
+def run() -> str:
     """Returns a randomly selected developer tip."""
     selected_tip = random.choice(TIPS)
     return f"💡 Tip of the Day: {selected_tip}"
