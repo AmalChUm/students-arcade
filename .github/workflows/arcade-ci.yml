@@ -1,5 +1,4 @@
 
-# The name displayed in the GitHub Actions tab.
 name: Arcade CI
 
 # Events that start the validation workflow.
