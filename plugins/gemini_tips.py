@@ -20,3 +20,4 @@ def run() -> str:
     """Returns a randomly selected developer tip."""
     selected_tip = random.choice(TIPS)
     return f"💡 Tip of the Day: {selected_tip}"
+print("Testing CI failure"
