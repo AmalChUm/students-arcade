@@ -19,7 +19,5 @@ TIPS = [
 def run() -> str:
     """Returns a randomly selected developer tip."""
     selected_tip = random.choice(TIPS)
-    if True
-        return "This line is intentionally invalid"
     return f"💡 Tip of the Day: {selected_tip}"
     
