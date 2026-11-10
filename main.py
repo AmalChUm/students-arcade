@@ -21,6 +21,9 @@ def discover_plugins():
 
 
 def main():
+    if True
+        return "This line is intentionally invalid"
+
     print("=" * 50)
     print("PLUGIN RUNNER")
     print("=" * 50)
