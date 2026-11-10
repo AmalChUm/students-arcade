@@ -26,29 +26,29 @@ on:
 # A workflow contains one or more jobs.
 jobs:
   arcade-ci:
-  # Friendly name shown on the Actions page.
-  name: Validate Arcade Python code
+    # Friendly name shown on the Actions page.
+    name: Validate Arcade Python code
 
-  # Use a GitHub-hosted Ubuntu virtual machine.
-  runs-on: ubuntu-latest
+    # Use a GitHub-hosted Ubuntu virtual machine.
+    runs-on: ubuntu-latest
 
-  # Steps run from top to bottom.
-  steps:
-    # Download the repository files onto the runner.
-    - name: Check out the repository
-      uses: actions/checkout@v4
+    # Steps run from top to bottom.
+    steps:
+      # Download the repository files onto the runner.
+      - name: Check out the repository
+        uses: actions/checkout@v4
 
-    # Install Python on the runner.
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.12'
+      # Install Python on the runner.
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-    # Compile Python files without executing them.
-    - name: Check Python syntax
-      run: python -m compileall -q .
+      # Compile Python files without executing them.
+      - name: Check Python syntax
+        run: python -m compileall -q .
 
-    # Run the existing launcher.
-    # The timeout prevents an accidental interactive plugin from hanging CI.
-    - name: Run the Arcade launcher
-      run: timeout 20s python main.py
+      # Run the existing launcher.
+      # The timeout prevents an accidental interactive plugin from hanging CI.
+      - name: Run the Arcade launcher
+        run: timeout 20s python main.py
