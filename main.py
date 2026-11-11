@@ -20,7 +20,7 @@ def discover_plugins():
             print(f"  [skipped] plugins/{module_info.name}.py failed to import: {exc}")
 
 
-def main()
+def main():
     print("=" * 50)
     print("PLUGIN RUNNER")
     print("=" * 50)
