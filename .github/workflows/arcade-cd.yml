@@ -1,0 +1,55 @@
+# The name displayed in the GitHub Actions tab.
+name: Arcade CD
+
+# Deliver after changes reach main, or when started manually.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  package-arcade:
+    name: Package Students Arcade
+    runs-on: ubuntu-latest
+
+    steps:
+      # Download the repository files onto the runner.
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      # Install Python before validation and packaging.
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Compile source files without executing them.
+      - name: Check Python syntax
+        run: python -m compileall -q .
+
+      # Verify the launcher and save its output as evidence.
+      - name: Verify the Arcade launcher
+        run: timeout 20s python main.py > run-log.txt
+
+      # Copy release files, then remove generated Python caches.
+      # Only selected files are copied; .git and virtual environments stay out.
+      - name: Prepare release folder
+        run: |
+          mkdir -p arcade-release/plugins
+          cp main.py README.md LICENSE run-log.txt arcade-release/
+          cp -r plugins/. arcade-release/plugins/
+          find arcade-release -type d -name '__pycache__' -prune -exec rm -rf {} +
+          find arcade-release -type f \( -name '*.pyc' -o -name '*.pyo' \) -delete
+          if [ -f requirements.txt ]; then cp requirements.txt arcade-release/; fi
+
+      # Compress the clean release directory.
+      - name: Create release ZIP
+        run: zip -r students-arcade-release.zip arcade-release
+
+      # Make the ZIP downloadable from this workflow run.
+      - name: Upload Arcade artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: students-arcade-release
+          path: students-arcade-release.zip
+          if-no-files-found: error
