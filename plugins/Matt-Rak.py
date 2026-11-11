@@ -1,4 +1,6 @@
-import random
+if True
+    print("Broken code")
+    import random
 
 Game_name = "Guessing game"
 Author = "Matthew Rakay"
