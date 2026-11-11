@@ -1,0 +1,50 @@
+# The name displayed in the GitHub Actions tab.
+name: Arcade CI
+
+# Events that start the validation workflow.
+on:
+  # Validate relevant code and workflow changes pushed to any branch.
+  push:
+    paths:
+      - 'plugins/**/*.py'
+      - 'main.py'
+      - '.github/workflows/arcade-ci.yml'
+      - '.github/workflows/arcade-cd.yml'
+
+  # Validate proposed changes targeting main.
+  pull_request:
+    branches: [main]
+    paths:
+      - 'plugins/**/*.py'
+      - 'main.py'
+      - '.github/workflows/arcade-ci.yml'
+      - '.github/workflows/arcade-cd.yml'
+
+  # Allow manual execution when the workflow is available for dispatch.
+  workflow_dispatch:
+
+jobs:
+  arcade-ci:
+    name: Validate Arcade Python code
+    # Use a GitHub-hosted Ubuntu virtual machine.
+    runs-on: ubuntu-latest
+
+    steps:
+      # Download the repository files onto the runner.
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      # Install the Python version specified by the assignment.
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Compile Python files without executing them.
+      - name: Check Python syntax
+        run: python -m compileall -q .
+
+      # Run the existing launcher without changing its behavior.
+      # Stop after 20 seconds if a plugin hangs or waits for input.
+      - name: Run the Arcade launcher
+        run: timeout 20s python main.py
