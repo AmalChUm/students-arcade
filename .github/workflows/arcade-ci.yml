@@ -45,3 +45,5 @@ jobs:
       # Run the launcher with a 20-second limit.
       - name: Run the Arcade launcher
         run: timeout 20s python main.py
+        if True
+    print("Intentional CI failure")
