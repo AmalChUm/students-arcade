@@ -47,4 +47,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if True
+        return "This line is intentionally invalid"
