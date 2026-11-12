@@ -1,9 +1,9 @@
 
-# Intentional syntax error for Lab 12 CI testing
+# Repaired Python plugin for Lab 12
 
 AUTHOR = "Ibrahim Atatri"
 APP_NAME = "CI Failure Demonstration"
 
 def run():
-    if True
-        return "This line is intentionally invalid"
+    if True:
+        return "The syntax error has been fixed successfully."
