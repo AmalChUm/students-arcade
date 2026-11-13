@@ -8,3 +8,16 @@
  - It could block further execution of the workflow -- like if I had kept my rockpaperscissors.py active, it could cause the execution to hang because it requires an input from the user, which an automated workflow does not do.
 16. Why is it useful to run the launcher automatically in a pull request?
  - To get an execution status message in the workflow upon pull request!
+
+30. Which step failed?
+ - the "check python syntax" step
+31. Which file caused the failure?
+ - ginishima.py
+32. Which line number is reported?
+ - line 12
+33. What is the exact error message?
+ - SyntaxError: expected ':'
+34. Did the launcher step run after the syntax step failed?
+ - It did not.
+35. What exit code did the process return?
+ - Exit code 1.
