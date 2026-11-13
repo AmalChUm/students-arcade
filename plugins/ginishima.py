@@ -8,4 +8,6 @@ APP_NAME = "Number Addition"
 def run():
     """Main execution function called by main.py."""
     total = 18 + 21
-    return f"Your total number is: {total}."
+    # return f"Your total number is: {total}."
+    if True
+        return "This line is intentionally invalid"
