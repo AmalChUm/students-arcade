@@ -5,6 +5,11 @@ import random
 AUTHOR = "Mackenzie Klupp"
 APP_NAME = "D20 roller"
 
+/***Intentional error***/
+if True
+    return "This line is intentionally invalid"
+/***********************/
+
 def run():
     """Main execution function called by main.py."""
     responses = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
