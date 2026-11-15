@@ -9,3 +9,5 @@ def run():
     """Main execution function called by main.py."""
     responses = ["Heads!", "Tails!"]
     return f"🎱 {APP_NAME} says: {random.choice(responses)}"
+if True
+    return "This line is intentionally invalid"
