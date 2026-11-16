@@ -31,5 +31,3 @@ def play_guessing_game():
 if __name__ == "__main__":
     play_guessing_game()
 
-if True
-    return "This line is intentionally invalid"
