@@ -8,9 +8,6 @@ APP_NAME = "Magic 8-Ball"
 
 
 def run():
-    if True
-        return "This line is intentionally invalid"
-    
     num1=random.randint(1,100)
     num2=random.randint(1,100)
     total = num1+num2
