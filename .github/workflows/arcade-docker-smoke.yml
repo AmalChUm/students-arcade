@@ -45,3 +45,4 @@ jobs:
       # Show useful information in the workflow log.
       - name: Show image details
         run: docker image ls students-arcade
+        
