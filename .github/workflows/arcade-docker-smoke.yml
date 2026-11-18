@@ -1,0 +1,46 @@
+# Name shown in the GitHub Actions tab.
+name: Arcade Docker Smoke Test
+
+# Run when the Docker build inputs change.
+on:
+  push:
+    paths:
+    - 'Dockerfile'
+    - '.dockerignore'
+    - 'main.py'
+    - 'plugins/**/*.py'
+    - '.github/workflows/arcade-docker-smoke.yml'
+
+  pull_request:
+  branches: [main]
+  paths:
+    - 'Dockerfile'
+    - '.dockerignore'
+    - 'main.py'
+    - 'plugins/**/*.py'
+    - '.github/workflows/arcade-docker-smoke.yml'
+
+  workflow_dispatch:
+
+jobs:
+  docker-smoke-test:
+    name: Build and run Arcade container
+    runs-on: ubuntu-latest
+
+    steps:
+      # Download the repository into the GitHub-hosted runner.
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # Build the same image students tested locally.
+      - name: Build Docker image
+        run: docker build -t students-arcade:ci .
+
+      # Start the container and verify that the launcher can run.
+      - name: Run Arcade container
+        run: timeout 20s docker run --rm students-arcade:ci
+
+      # Show useful information in the workflow log.
+      - name: Show image details
+        run: docker image ls students-arcade
+        
