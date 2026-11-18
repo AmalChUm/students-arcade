@@ -12,13 +12,13 @@ on:
     - '.github/workflows/arcade-docker-smoke.yml'
 
   pull_request:
-  branches: [main]
-  paths:
-    - 'Dockerfile'
-    - '.dockerignore'
-    - 'main.py'
-    - 'plugins/**/*.py'
-    - '.github/workflows/arcade-docker-smoke.yml'
+    branches: [main]
+    paths:
+      - 'Dockerfile'
+      - '.dockerignore'
+      - 'main.py'
+      - 'plugins/**/*.py'
+      - '.github/workflows/arcade-docker-smoke.yml'
 
   workflow_dispatch:
 
