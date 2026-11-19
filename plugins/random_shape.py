@@ -4,7 +4,7 @@ AUTHOR = "Mahroush"
 APP_NAME = "Random Shape"
 
 
-def run()
+def run():
     shapes = {
         "Triangle": 3,
         "Square": 4,
